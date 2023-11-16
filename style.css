@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+div{
+  background-color: darkblue;
+  width: 350px;
+  height: 300px;
+  color: white;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+button{
+  width: 200px;
+  padding: 7px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+#increment-btn{
+  background-color: green;
+  color: white;
+}
+
+
